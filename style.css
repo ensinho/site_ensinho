@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    background: #11141a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+}
+
+nav a:hover,
+nav a.active {
+    color: rgb(120, 57, 187);
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f242d;
+    font-size: 50px;
+    color:#fff;
+    font-weight: 700;
+}
+
+section:nth-child(odd) {
+    background: rgb(65, 15, 127);
+
+}
+
+img {
+    box-shadow: 10px 15px rgb(92, 10, 174);
+    border: 30px;
+    border-radius: 150px;
+    margin-left: 85px;
+    height: 450px;
+    width: 650px;
+  }
+
+.Subtitle1 {
+    color: rgb(216, 169, 224);
+    margin: auto;
+    margin-left: 35px;
+    font: 400 25px 'Poppins', sans-serif;
+    font-weight: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+
+.Subtitle {
+    color: rgb(202, 164, 209);
+    margin: auto;
+    font-size: 23px;
+    margin-top: 75px;
+    margin-left: 50px;
+    font: 400 2.5rem 'Poppins', sans-serif;
+    font-weight: 550;
+  }
+
+  .Subtitle3 {
+    color: rgb(200, 150, 209);
+    margin: auto;
+    font-size: 23px;
+    margin-top: 175px;
+    margin-left: 50px;
+    font: 400 2.5rem 'Poppins', sans-serif;
+    font-weight: 550;
+  }
+
+.comment {
+    color: rgb(221, 184, 230);
+    font-size: 84px;
+    margin-left: 100px;
+    font: 700 2.5rem 'Poppins', sans-serif;
+  }
